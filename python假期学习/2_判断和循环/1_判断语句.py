@@ -10,3 +10,5 @@ print("---------------------------")
 bool_1 = True
 bool_2 = False
 print(bool_1, bool_2, type(bool_1), type(bool_2))
+print("******************************")
+
