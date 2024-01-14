@@ -1,17 +1,24 @@
-def shared_chars_count(word1, word2):
-    # 此处编写代码
-    str1 = word1.lower().replace(" ","")
-    str2 = word2.lower().replace(" ","")
-    str1 = sorted(str1)
-    str2 = sorted(str2)
-    for i in range()
+def missing_numbers_info(num_list):
+    # 此处写下你的代码
+    res = []
+    sum = 0
+    temp = 0
+    min1 = min(num_list)
+    for i in range(min(num_list), max(num_list)):
+        if i in num_list:
+            continue
+        else:
+            temp += 1
+            sum += i
+    res.append(temp)
+    res.append(sum)
+    return tuple(res)
 
-# 获取输入
-word1 = input()
-word2 = input()
 
+# 获取整数输入并将其转换为列表
+num_list = list(map(int, input().split()))
 # 调用函数
-print(shared_chars_count(word1, word2))
+print(missing_numbers_info(num_list))
 
 
 
