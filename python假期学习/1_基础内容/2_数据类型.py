@@ -27,4 +27,4 @@ name2 = "asuka"
 name3 = """asuka"""
 # \转移定义
 name4 = "\"asuka"
-print(name1, name2, name3,name4)
+print(name1, name2, name3, name4)

@@ -2,19 +2,28 @@
 name = ["asuka", 18, True, ["asuka", 18, True]]
 print(name, name[1], name[-2], name[3][1], type(name))
 print("-----------------")
+"""
+    指定元素查找 .index(查找元素)方法
+    尾部追加单个元素 .append(追加元素)方法，追加的元素可以是数据容器
+    统计指定元素数量 .count(统计元素)方法
+    插入指定元素到指定位置 .insert(插入下标位置,内容)方法
+    修改
+"""
 # 增删改查
 # 函数写在class类里面的话叫方法，只是调用方式不一样
 temp = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1]
 print(f"原始列表:{temp}")
 temp_index1 = temp.index(4)
 temp_index2 = temp.index(1)
-print(temp_index1, temp_index2)
+print(f"4的位置下表为:{temp_index1}")
+print(f"1的位置下表为:{temp_index2}")
 # 统计指定元素
 count = temp.count(1)
 print(f"统计数字:{count}")
 # 统计列表元素数量(长度)
 temp_len = len(temp)
 print(f"列表的元素个数是:{temp_len}")
+print(f"原始列表:{temp}")
 # 改
 temp[6] = "asuka"
 print(f"修改后:{temp}")

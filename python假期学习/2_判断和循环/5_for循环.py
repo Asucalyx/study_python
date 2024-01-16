@@ -1,7 +1,8 @@
-tempstr = "my name is asuka"
-print(tempstr)
+# for循环可以实现遍历
+temp_str = "my name is asuka"
+print(temp_str)
 num1 = 0
-for x in tempstr:
+for x in temp_str:
     if x == "a":
         num1 += 1
 print(f"本句话有{num1}个a")
