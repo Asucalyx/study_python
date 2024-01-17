@@ -1,5 +1,14 @@
 temp = "asucalyx"
 print(f"原字符串是:{temp}")
+"""
+    字符串不可修改
+    指定元素下标查找 .index(查找的元素)方法
+    字符串替换 .replace( 原内容, 替换内容)方法
+    多个字符串的连接 + 符号
+    统计指定元素数量 .count(统计的元素)方法
+    字符串分割成列表 .split(分割元素)方法
+    字符串规整 .strip()方法
+"""
 print(temp[3])
 # 字符串不可修改
 num1 = temp.index("x")

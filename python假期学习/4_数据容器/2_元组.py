@@ -1,6 +1,13 @@
 # 元组就是不可修改，只读的列表
 temp_tuple = ("asuka", 18, True, ("asuka", 18, True))
 print(temp_tuple, type(temp_tuple))
+"""
+    指定元素下标查找 .index(查找的元素)方法
+    多个元组连接 + 符号
+    统计指定元素数量 .count(统计的元素)方法
+    删除元组 del方法
+    元组内的数据容器是可以修改的
+"""
 num = temp_tuple[3][2]
 print(num)
 temp_index = temp_tuple.index("asuka")

@@ -1,8 +1,17 @@
-# 集合不支持重复，内容无序不支持下标访问
+# 集合不支持重复，内容无序不支持下标访问 集合不能用{}定义，只能用set()
 temp_set = {"asuka", "ayanami", "asuka", "ayanami", "asuka", "ayanami"}
-temp_set1 = {}
+temp_set1 = set()
 print(temp_set)
 print(temp_set1)
+"""
+    添加元素 .add(添加元素)方法
+    删除元素 .remove(删除)方法
+    随机元素取出 .pop()方法
+    清空集合 .clear()方法
+    集合的差集 比较集合1.difference(比较集合2)方法
+    消除结合的差集 比较集合1.difference_update(比较集合2)方法
+    合并集合 .union(合并集合)方法
+"""
 # add()添加新元素
 temp_set.add("asucalyx")
 print(f"添加后的集合是:{temp_set}")

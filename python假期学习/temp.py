@@ -1,0 +1,2 @@
+num = "asuka"
+print(t)

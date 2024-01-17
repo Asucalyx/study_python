@@ -3,6 +3,13 @@
 my_dict = {"key1": 1, "key2": 2, "key3": 3}
 temp = dict()
 print(f"字典内容:{my_dict} , 类型为{type(my_dict)}")
+"""
+    字典为 键:值 组合，跟json文件有区别非一样东西
+    字典新增/更新元素  dict["key"] = value
+    字典删除(提取)元素 .pop("key") 
+    获取全部key值 .keys()方法
+    清空字典 .clear()方法
+"""
 # 字典取值
 temp1 = my_dict["key2"]
 print(f"取得字典的值:{temp1}")
