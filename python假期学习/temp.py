@@ -1,6 +1,7 @@
-nums = [4,2,2,1,1]
-temp = 0
-for i in nums:
-    temp ^= i
-    print(temp)
+import time
+
+from  tqdm import  tqdm
+
+for i in tqdm(range(100)):
+    time.sleep(0.1)
 
