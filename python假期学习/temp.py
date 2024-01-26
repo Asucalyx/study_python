@@ -1,7 +1,3 @@
-import time
-
-from  tqdm import  tqdm
-
-for i in tqdm(range(100)):
-    time.sleep(0.1)
+from rich import print
+print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:", locals())
 
