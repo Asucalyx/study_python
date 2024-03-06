@@ -1,3 +1,2 @@
-from rich import print
-print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:", locals())
-
+i = "abcdef"
+print(i[::-1])
